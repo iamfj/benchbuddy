@@ -1,9 +1,11 @@
-import React, {Component} from "react";
+import React, { Component, ReactNode } from "react";
 
-export default class App extends Component<any, any> {
-    render() {
-        return <div>
-            <h1>Hello World!</h1>
-        </div>;
-    }
+export default class App extends Component<unknown, unknown> {
+  render(): ReactNode {
+    return (
+      <div>
+        <h1>Hello World!</h1>
+      </div>
+    );
+  }
 }
