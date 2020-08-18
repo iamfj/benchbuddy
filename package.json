@@ -46,6 +46,10 @@
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
+    "ignorePatterns": [
+      "/build",
+      "/node_modules"
+    ],
     "parserOptions": {
       "project": "./tsconfig.json",
       "jsx": true
