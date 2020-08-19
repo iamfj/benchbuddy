@@ -41,10 +41,7 @@ export default class App extends Component<unknown, unknown> {
             style={{ padding: 0 }}
           />
           <Layout.Content style={{ margin: "24px 16px 0" }}>
-            <div
-              className="site-layout-background"
-              style={{ padding: 24 }}
-            >
+            <div className="site-layout-background" style={{ padding: 24 }}>
               content
             </div>
           </Layout.Content>
